@@ -1,1 +1,7 @@
 
+# Create and activate a virtual environment
+python3 -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
+# Install Django and required packages
+pip install django djangorestframework djangorestframework-simplejwt django-filter
